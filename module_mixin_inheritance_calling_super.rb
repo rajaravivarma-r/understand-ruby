@@ -1,6 +1,6 @@
 module BigBangHole
   def initialize(...)
-    print "BigBangHole: "
+    print 'BigBangHole: '
     puts(...)
   end
 end
@@ -42,7 +42,7 @@ class ATest
   end
 end
 
-puts "Initializing ABTest"
+puts 'Initializing ABTest'
 ab_test = ABTest.new('value')
 puts ABTest.ancestors.map(&:to_s).join(', ')
 
